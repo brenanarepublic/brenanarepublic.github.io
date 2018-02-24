@@ -1,5 +1,5 @@
 html {
-  font-family: 'Brix Sans' !important;
+  font-family: 'Brix Sans';
 }
 .orange {
   color: rgb(217, 108, 60);
@@ -9,6 +9,39 @@ html {
 }
 .blue {
   color: rgb(30, 48, 135);
+}
+
+blockquote {
+  font-size: 48px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-style: italic;
+  font-family: Sentinel;
+  position: relative;
+}
+
+blockquote::before {
+  content: '"';
+  font-family: cursive;
+  font-size: 190px;
+  top: -100px;
+  left: 50px;
+  position: absolute;
+  color: #ccc;
+  z-index: -1;
+}
+
+blockquote::after {
+  content: '"';
+  font-family: cursive;
+  font-size: 190px;
+  top: -150px;
+  right: 50px;
+  position: absolute;
+  color: #ccc;
+  z-index: -1;
+  transform: rotate(180deg);
 }
 
 body {
