@@ -1,0 +1,57 @@
+html {
+  font-family: 'Brix Sans' !important;
+}
+.orange {
+  color: rgb(217, 108, 60);
+}
+.pink {
+  color: rgb(230, 171, 142);
+}
+.blue {
+  color: rgb(30, 48, 135);
+}
+
+body {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.row {
+  width: 100%;
+}
+
+.row:nth-child(even) {
+  background-color: rgb(230, 171, 142);
+}
+
+section {
+  padding: 40px 0;
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.row img {
+  height: 300px;
+}
+.row:nth-child(odd) img {
+  order: 0;
+  margin-right: 50px;
+}
+.row:nth-child(odd) {
+  text-align: right;
+}
+.row:nth-child(even) img {
+  order: 1;
+  margin-left: 50px;
+}
