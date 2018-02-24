@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Sentinel';
+  src: url('https://web.northeastern.edu/scout/wp-content/themes/scout/fonts/Sentinel-BookItalic.woff')
+    format('woff');
+}
+@font-face {
+  font-family: 'Brix Sans';
+  src: url('https://web.northeastern.edu/scout/wp-content/themes/scout/fonts/BrixSansMedium.woff')
+    format('woff');
+}
 html {
   font-family: 'Brix Sans';
 }
